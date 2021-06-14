@@ -1,0 +1,21 @@
+.delete-row{
+    color: red;
+    font-size: 18px;
+    padding-left: 18px;
+}
+
+.add-items{
+    position: absolute;
+    right: 90px;
+    top: 55px;
+}
+
+.add--list{
+    color: #28a745;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.right-col-placeholder{
+    color: #929eaac4;
+}

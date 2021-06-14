@@ -1,0 +1,21 @@
+.header{
+    background: hsl(180deg 51% 52% / 62%);
+    height: 75px;
+}
+
+
+.chart-heading{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.project-heading{
+    color: #dc3545;
+    font-size: 20px;
+}
+
+
+.login{
+    color: #28a745;
+    font-weight: 800;
+}

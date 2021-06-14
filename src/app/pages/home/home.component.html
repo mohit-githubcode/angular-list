@@ -1,0 +1,35 @@
+<div class="header text-center">
+    <div class="font-weight-bold project-heading pt-3">Todo List Project</div>
+    <span class="float-right mr-4 login">
+        <a routerLink="/login">Login</a></span>
+</div>
+<div class="text-center">
+    <div class="chart-heading mt-3 mb-3">Charts</div>
+    <div class="row">
+        <div class="col-md-6">
+                <div class="chart-wrapper">
+                    <canvas baseChart 
+                    [datasets]="barChartData"
+                    [labels]="barChartLabels"
+                    [options]="barChartOptions"
+                    [plugins]="barChartPlugins"
+                    [legend]="barChartLegend"
+                    [chartType]="barChartType">
+                </canvas>
+                </div>
+        </div>
+        <div class="col-md-6">
+            <div class="chart-wrapper">
+                <canvas baseChart 
+                    [datasets]="lineChartData" 
+                    [labels]="lineChartLabels" 
+                    [options]="lineChartOptions"
+                    [colors]="lineChartColors" 
+                    [legend]="lineChartLegend" 
+                    [chartType]="lineChartType" 
+                    [plugins]="lineChartPlugins">
+                </canvas>
+            </div>
+    </div>
+    </div>
+</div>
